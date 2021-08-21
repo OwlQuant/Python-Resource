@@ -18,3 +18,31 @@ Generate 10 random integers between 1000 and 2000
 ```python
 np.random.randint(1000, 2000, 10)
 ```
+
+## 2. Basic Math
+```python
+x = np.random.rand(100)
+```
+
+Add
+```python
+np.sum(x)
+# or
+x.sum()
+```
+
+Average
+```python
+np.mean(x)
+# or
+x.mean()
+```
+
+Count of elements
+```python
+np.size(x)
+# or
+x.size
+```
+
+
