@@ -107,11 +107,11 @@ np.roots([1, -6, 11, -6])  # solution for x^3 - 6x^3 + 11x - 6
 Simultaneous Equations
 ```python
 # Two Variables x, y
-a = np.array([[1, 2], [3, 5]])
-b = np.array([1, 2])
+a = np.array([[3, 2], [3, 5]])
+b = np.array([-1, 2])
 
-#  x + 2y = 1
-# 5x + 7y = 2
+# 3x + 2y = -1
+# 5x + 7y =  2
 
 np.linalg.solve(a, b)
 
