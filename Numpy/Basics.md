@@ -1,7 +1,8 @@
 
 Prerequisite
 ```python
-import numpy as np```
+import numpy as np 
+```
 
 ## 1. Random Numbers
 
