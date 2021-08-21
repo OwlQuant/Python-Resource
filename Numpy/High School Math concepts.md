@@ -94,13 +94,26 @@ np.polyfit(x,y,dof)  # returns b1, b2, ... bn (dof+1 elements)
 
 ## 5. Solving Equations
 
-Roots of equation (quadratic, etc.)
+Roots of single variable equation (like quadratic equation)
 
 ```python
 np.roots([1, -3, 2])  # solution for x^2 - 3*x^2 + 2
 
 np.roots([1, -6, 11, -6])  # solution for x^3 - 6x^3 + 11x - 6
 
+```
+
+
+Simultaneous Equations
+
+```python
+a = np.array([[1, 2], [3, 5]])
+b = np.array([1, 2])
+
+# x + 2y = 1
+# 5x + 7y = 2
+
+np.linalg.solve(a, b)
 ```
 
 
