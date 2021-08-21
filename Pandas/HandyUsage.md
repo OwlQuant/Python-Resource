@@ -1,7 +1,7 @@
 ## Pivot Table with flattened string
 
 Name | Class
-------------
+-----|------
 John | Physics
 John | Chemistry
 Mary | Math
@@ -9,8 +9,8 @@ Mary | English
 
 expected answer
 
-Name | Classes
---------------
+Name | Class
+-----|--------
 John | Physics, Chemistry
 Mary | Math, English
 
