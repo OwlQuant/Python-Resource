@@ -81,6 +81,9 @@ Count of elements
 np.size(x)
 # or
 x.size
+
+Length of array
+len(x)  # for 1-dimension array this is the same as x.size or np.size(x)
 ```
 
 Add
