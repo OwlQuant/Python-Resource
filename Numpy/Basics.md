@@ -4,6 +4,7 @@ Prerequisite
 import numpy as np 
 ```
 ## 1. Arrays
+
 One Dimension
 ```python
 np.array([1,4,5,7,4,2,0])
@@ -13,8 +14,10 @@ Two Dimension
 np.array([[1,3,5],[2,4,6]])
 ```
 Addressing Array
+
 ```python
 x = np.array([1,4,5,7,4,2,0])
+
 # second element
 x[1]  # index starts with 0
 
