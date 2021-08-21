@@ -3,8 +3,18 @@ Prerequisite
 ```python
 import numpy as np 
 ```
+## 1. Arrays
+One Dimension
+```python
+x = np.array([1,4,5,7,4,2,0])
+```
+Two Dimension
+```python
+x = np.array([[1,3,5],[2,4,6]])
+```
 
-## 1. Random Numbers
+
+## 2. Random Numbers
 
 Generate array of 100 random numbers
 ```python
@@ -19,7 +29,7 @@ Generate 10 random integers between 1000 and 2000
 np.random.randint(1000, 2000, 10)
 ```
 
-## 2. Basic Math
+## 3. Basic Math
 ```python
 x = np.random.rand(100)
 ```
