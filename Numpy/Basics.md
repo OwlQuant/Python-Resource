@@ -1,15 +1,19 @@
 
-## l. Random Numbers
+Prerequisite
+```python
+import numpy as np```
 
-1. Generate array of 100 random numbers
+## 1. Random Numbers
+
+Generate array of 100 random numbers
 ```python
 np.random.rand(100)
 ```
-1. Generate 2d array of 10x5 random numbers
+Generate 2d array of 10x5 random numbers
 ```python
 np.random.rand([10,5])
 ```
-  1. Generate 10 random integers between 1000 and 2000
+Generate 10 random integers between 1000 and 2000
 ```python
 np.random.randint(1000, 2000, 10)
 ```
