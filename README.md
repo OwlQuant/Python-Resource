@@ -1,9 +1,9 @@
 ## Resources related to Python
 
-# Pandas Resources
+### Pandas Resources
 Useful Commands
 
-# Numpy Resources
+### Numpy Resources
 Useful Commands
 
 
