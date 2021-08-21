@@ -23,6 +23,12 @@ np.random.randint(1000, 2000, 10)
 ```python
 x = np.random.rand(100)
 ```
+Count of elements
+```python
+np.size(x)
+# or
+x.size
+```
 
 Add
 ```python
@@ -38,11 +44,12 @@ np.mean(x)
 x.mean()
 ```
 
-Count of elements
+Product
 ```python
-np.size(x)
+np.prod(x)
 # or
-x.size
+x.prod()
 ```
+
 
 
