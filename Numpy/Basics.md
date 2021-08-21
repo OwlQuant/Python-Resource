@@ -6,11 +6,33 @@ import numpy as np
 ## 1. Arrays
 One Dimension
 ```python
-x = np.array([1,4,5,7,4,2,0])
+np.array([1,4,5,7,4,2,0])
 ```
 Two Dimension
 ```python
-x = np.array([[1,3,5],[2,4,6]])
+np.array([[1,3,5],[2,4,6]])
+```
+Addressing Array
+```python
+x = np.array([1,4,5,7,4,2,0])
+# second element
+x[1]  # index starts with 0
+
+# first five
+x[:5]
+
+# second to fifth  
+x[1:5]  # index starts with 0
+
+# Last  
+x[-1]
+
+# Last three
+x[-3:]
+
+# All but last two
+x[:-2]
+
 ```
 
 
