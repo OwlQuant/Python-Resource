@@ -38,6 +38,18 @@ x[:-2]
 
 ```
 
+Array Manipulation
+
+```python
+x = np.array([1,3,5,7,2,4,6,8])
+
+# elementwise update
+x * 10
+x / 2
+x + 100
+-x
+```
+
 
 ## 2. Random Numbers
 
