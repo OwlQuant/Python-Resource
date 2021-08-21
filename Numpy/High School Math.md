@@ -110,7 +110,7 @@ Simultaneous Equations
 a = np.array([[1, 2], [3, 5]])
 b = np.array([1, 2])
 
-# x + 2y = 1
+#  x + 2y = 1
 # 5x + 7y = 2
 
 np.linalg.solve(a, b)
@@ -120,9 +120,9 @@ np.linalg.solve(a, b)
 a = np.array([[1, 1, 1], [2, 1, 2], [1, -1, -1]])
 b = np.array([2, 6, 0])
 
-# x + y + z = 2
+#  x + y +  z = 2
 # 2x + y + 2z = 6
-# x - y - z = 0
+#  x - y -  z = 0
 
 np.linalg.solve(a, b)
 
