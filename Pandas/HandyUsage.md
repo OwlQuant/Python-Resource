@@ -16,6 +16,10 @@ John | Physics, Chemistry
 Mary | Math, English, Physics
 
 ```python
-pd.DataFrame([["John", "Physics"],["John", "Chemistry"], ["Mary", "Math"],["Mary", "English"], ["Mary", "Physics"]], columns=["Name", "Class"])
+pd.DataFrame([["John", "Physics"],["John", "Chemistry"], 
+    ["Mary", "Math"],["Mary", "English"], 
+    ["Mary", "Physics"]], 
+  columns=["Name", "Class"])
+  
 df.groupby("Name")["Class"].apply(", ".join)
 
