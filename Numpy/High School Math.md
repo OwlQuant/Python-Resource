@@ -125,6 +125,8 @@ b = np.array([2, 6, 0])
 # x - y - z = 0
 
 np.linalg.solve(a, b)
+
+# np.linalg.solve works for any number of variables!
 ```
 
 
