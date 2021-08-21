@@ -44,10 +44,10 @@ Array Manipulation
 x = np.array([1,3,5,7,2,4,6,8])
 
 # Elementwise update
-x * 10
-x / 2
-x + 100
--x
+x * 10  # multiplies each element of array by 10
+x / 2  # divides each element of array by 2
+x + 100  # adds each element of array by 100
+-x  # reverses sign of each element of array
 
 # Sorting
 x.sort()  # Sorted in-place
@@ -125,6 +125,9 @@ np.cumprod(x)
 # or
 x.cumsum()
 x.cumprod()
+
+# multiple operations can be combined in one statement
+np.cumprod(x/100 + 1) - 1
 ```
 
 
