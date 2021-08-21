@@ -87,7 +87,7 @@ beta, intercept = np.polyfit(x,y,1)  # equation of best fit line: y = x * beta +
 
 Regression - Curve fitting 
 ```python
-dof = 3  # degree of freedom. Highest power ofbest-fit polynomial in y = x^dof * b1 + x^(dof-1) * b2 + ... + bn
+dof = 3  # degree of freedom. Highest power of best-fit polynomial in y = x^dof * b1 + x^(dof-1) * b2 + ... + bn
 np.polyfit(x,y,dof)  # returns b1, b2, ... bn (dof+1 elements)
 ```
 
@@ -98,6 +98,9 @@ Roots of equation (quadratic, etc.)
 
 ```python
 np.roots([1, -3, 2])  # solution for x^2 - 3*x^2 + 2
+
+np.roots([1, -6, 11, -6])  # solution for x^3 - 6x^3 + 11x - 6
+
 ```
 
 
