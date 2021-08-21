@@ -31,7 +31,7 @@ np.random.randint(1000, 2000, 10)
 
 ## 3. Basic Math
 ```python
-x = np.random.rand(100)
+x = np.random.rand(10)
 ```
 Count of elements
 ```python
