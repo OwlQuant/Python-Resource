@@ -57,7 +57,12 @@ Power
 np.power(x, 2)  # power of 2
 ```
 
-Expoenntial
+Square Root
+```python
+np.sqrt(x)
+```
+
+Exponential
 ```python
 np.exp(x)  # e^x
 ```
@@ -69,5 +74,30 @@ np.log10(x)  # log(x) with base 10
 
 ```
 
+## 4. Regression
+```python
+x = np.array([1,2,3,4,5,6,7,8,9,10])
+y = np.array([10,21,32,39,48,61,72,78,91,98])
+```
+
+Linear Regression
+```python
+beta, intercept = np.polyfit(x,y,1)  # equation of best fit line: y = x * beta + intercept
+```
+
+Regression - Curve fitting 
+```python
+dof = 3  # degree of freedom. Highest power ofbest-fit polynomial in y = x^dof * b1 + x^(dof-1) * b2 + ... + bn
+np.polyfit(x,y,dof)  # returns b1, b2, ... bn (dof+1 elements)
+```
+
+
+## 5. Solving Equations
+
+Roots of equation (quadratic, etc.)
+
+```python
+np.roots([1, -3, 2])  # solution for x^2 - 3*x^2 + 2
+```
 
 
