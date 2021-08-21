@@ -6,15 +6,16 @@ John | Physics
 John | Chemistry
 Mary | Math
 Mary | English
+Mary | Physics
 
 expected answer
 
 Name | Class
 -----|--------
 John | Physics, Chemistry
-Mary | Math, English
+Mary | Math, English, Physics
 
 ```python
-df.groupby("Name").apply(["Clases"].join(", "))
-
+pd.DataFrame([["John", "Physics"],["John", "Chemistry"], ["Mary", "Math"],["Mary", "English"], ["Mary", "Physics"]], columns=["Name", "Class"])
+df.groupby("Name")["Class"].apply(", ".join)
 
