@@ -43,11 +43,17 @@ Array Manipulation
 ```python
 x = np.array([1,3,5,7,2,4,6,8])
 
-# elementwise update
+# Elementwise update
 x * 10
 x / 2
 x + 100
 -x
+
+# Sorting
+x.sort()  # Sorted in-place
+# or
+np.sort(x)  # returns copy of array that is sorted
+
 ```
 
 
@@ -91,12 +97,36 @@ np.mean(x)
 x.mean()
 ```
 
+Median
+```python
+np.median(x)
+```
+
 Product
 ```python
 np.prod(x)
 # or
 x.prod()
 ```
+
+Min / Max 
+```python
+np.min(x)
+np.max(x)
+# or
+x.min()
+x.max()
+```
+
+Cumulative Sum / Product
+```python
+np.cumsum(x)
+np.cumprod(x)
+# or
+x.cumsum()
+x.cumprod()
+```
+
 
 
 
