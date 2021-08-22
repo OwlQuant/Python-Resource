@@ -24,6 +24,11 @@ np.mod(22,5)
 ```python
 a = np.array([0,30,45,60,90,135,180,270,360])
 ```
+Constants: Pi, e
+```python
+np.pi
+np.e
+```
 
 Degree to Radian
 ```python
