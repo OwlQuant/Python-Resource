@@ -70,7 +70,7 @@ np.arange(2, 20, 4) # 2, 6, 10, 14, 18
 
 Split Range - start, stop, count
 ```python
-np.arange(0, 50, 6) # 0, 10, 20, 30, 40, 50
+np.linspace(0, 50, 6) # 0, 10, 20, 30, 40, 50
 ```
 
 ### Random Numbers
