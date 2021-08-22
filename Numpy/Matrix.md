@@ -10,6 +10,13 @@ np.zeros([3,4])
 np.eye(4)  # creates 4x4 identity matrix
 ```
 
+Matrix using 2D array
+```python
+np.array([[10, 20, 30], [40, 50, 60]])
+
+# Note - using matrix type in numpy is discouraged. This feature will be removed at some point
+```
+
 ### Common Operations
 
 Matrix Multiply / Dot Product
