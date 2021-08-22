@@ -57,7 +57,23 @@ np.sort(x)  # returns copy of array that is sorted
 ```
 
 
-## 2. Random Numbers
+## 2. Generate Numbers
+
+### Sequential Numbers
+
+Numbers from - to
+```python
+np.arange(10) # 0, 1, ... 9
+np.arange(5, 15) # 5, 6, 7, ... 14
+np.arange(2, 20, 4) # 2, 6, 10, 14, 18
+```
+
+Split Range - start, stop, count
+```python
+np.arange(0, 50, 6) # 0, 10, 20, 30, 40, 50
+```
+
+### Random Numbers
 
 Generate array of 100 random numbers
 ```python
