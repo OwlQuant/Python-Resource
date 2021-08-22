@@ -1,9 +1,10 @@
 ## Resources related to Python
 
-### Pandas Resources
-Useful Commands
-
 ### Numpy Resources
-Useful Commands
+Under Numpy folder
+
+### Pandas Resources
+Under Pandas folder
+
 
 
