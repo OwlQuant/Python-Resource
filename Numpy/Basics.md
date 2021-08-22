@@ -1,5 +1,5 @@
 
-Prerequisite
+Prerequisite (import)
 ```python
 import numpy as np 
 ```
@@ -13,7 +13,7 @@ Two Dimension
 ```python
 np.array([[1,3,5],[2,4,6]])
 ```
-Addressing Array
+Addressing an Array
 
 ```python
 x = np.array([1,4,5,7,4,2,0])
