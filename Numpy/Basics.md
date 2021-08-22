@@ -1,5 +1,5 @@
 
-Prerequisite ()
+Prerequisite
 ```python
 import numpy as np 
 ```
