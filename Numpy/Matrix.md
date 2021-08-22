@@ -1,6 +1,7 @@
 ## Matrix in NumPy
 a = np.array([[1,2], [3,4]])
 b = np.array([[5,6], [7,8]])
+x = np.array([[1,2,3,4], [5,6,7,8], [9,10,11,12], [13,14,15,16]])
 
 ### Create Matrix
 Ones, Zeros, Identify
@@ -31,11 +32,27 @@ Determinant value
 np.linalg.det(a, b)
 ```
 
+Transpose
+```python
+a.T
+```
+
 
 Inverse
 ```python
 np.linalg.inv(a)
 
 # check using: np.dot(a, np.linalg.inv(a))
+```
+
+Upper/Lower Triangle of Matrix
+```python
+np.triu(x)
+np.tril(x)
+```
+
+Diagonal of Matrix
+```python
+np.diag(x)
 ```
 
